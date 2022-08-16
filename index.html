@@ -1,0 +1,38 @@
+---
+layout: main
+title: Soviet Linux - Home
+contact: column
+contact-bg: lenin.svg
+---
+
+<header id="" class="parallax vh-50 vh-50-ns vh-100-l">
+    
+    <section id="bg-flag" class="plx-back-4 z-2 vh-100 flex items-start justify-center cover o-10"  style="background-image:url(assets/rays.svg);">
+    </section>
+    <section id="bg-flag" class="plx-back-2 z-2 vh-75 flex items-start justify-center bg-lefttop ani-fade-in ani-3s ml5 bg-size-h25"  style="background-image:url(assets/hamsic.svg);">
+    </section>
+    <section id="lenin" class="plx-back-1 z-2 vh-75 contain bg-rightbottom flex items-center justify-center bg-middle ani-fade-in ani-2s mr5"  style="background-image:url(assets/lenin_inv.svg);">
+    </section>
+    <section id="title card" class="plx-center z-3 flex flex-column items-center justify-center ani-fade-in ani-1s font-russian near-white  f1 f-headline-l tracked" style="">
+        SOVIET LINUX
+    </section>
+</header>
+
+<main class="relative z-4 bg-sov-red">
+    <section id="download-container" class="bg-fixed bg-center contain"  style="background-image:url(assets/popup_marx_engels_lenin.jpg);">
+        <div id="download" class=" f2 sov-red pv5 flex flex-column items-center justify-start bg-sov-yellow-t8 bt bw2 b--dark-gray ">
+            <a class="no-underline ph3 pv2 bg-sov-red hover-bg-dark-red yellow font-teko b tc bg-animate ba bw1 bw2-m b--dark-gray br3 f1 tracked" href="https://sovietlinux.ml/rootfs/sovietlinux-220815.img">
+            DOWNLOAD
+            </a>
+        <p class="font-teko f4 f3-m f2-l sov-red tracked">
+          <b>Username:</b> root<br />
+          <b>Password:</b> sovietlinux
+        </p>
+        <p class="f5 f4-m f3-l sov-red font-teko b tracked tc">
+            sovietlinux-220815.img<br />
+            sha256:<br />c26c065512805574cad8381f22658ef35180b022d732f22b9cbbbcde54bb23de
+        </p>
+    </section>
+{% include_relative about.html %}
+</main>
+{% include_relative contact.html %}

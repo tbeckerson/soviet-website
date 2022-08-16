@@ -1,0 +1,11 @@
+- name: "Discord"
+  link: "https://discord.gg/"
+  alt: Discord
+  src: assets/discord-white.svg
+  content: "join our community and interact with the creators"
+
+- name: "GitLab"
+  link: "https://git.sovietlinux.ml/sovietlinux"
+  alt: GitLab
+  src: assets/gitlab-white.svg
+  content: "view our code and join our development process"

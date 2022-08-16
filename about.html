@@ -1,0 +1,21 @@
+<section id="about-container" class=" bg-fixed bg-center bg-top-l contain bt bw2 b--dark-gray  " style="background-image:url(assets/unbreakable_union.jpg);">
+<section id="about" class="pv5 flex flex-column items-center justify-start bg-sov-red-t8 near-white">
+  <div class="measure font-hind w-90 a-light">
+    <h1 class="f1 font-teko b tc tracked">ABOUT</h1>
+{% capture about_section %}
+  {% include about.md %}
+{% endcapture %}
+{{ about_section | markdownify }}
+      </div>
+    </section>
+
+<section id="documentation" class="pv5 flex flex-column items-center justify-start bg-sov-red-t8 near-white">
+  <div class="measure font-hind w-90 a-light">
+    <h1 class="f1 font-teko b tc tracked">DOCUMENTATION</h1>
+{% capture doc_section %}
+  {% include doc.md %}
+{% endcapture %}
+{{ doc_section | markdownify }}
+      </div>
+    </section>
+</section>
