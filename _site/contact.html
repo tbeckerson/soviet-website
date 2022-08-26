@@ -1,0 +1,23 @@
+<footer class="relative z-5 bg-top cover bt bw2 b--dark-gray " style="background-image: url('./assets/lenin.svg')">
+<!-- this section is semi-transparent grey, which lets the <footer> background image show through. It's using flexbox instead of paragraphs so that we can add more links in later and readjust the flow (if needed) -->
+  <section class="pv5 ph2 bg-dark-gray-t8 flex flex-column items-center justify-center font-hind near-white">
+<!-- This <p> is the title of the content -->
+  <p class="font-teko b tracked f1 light-yellow self-start self-center-l pl5 pl0-l" id="contribute">CONTRIBUTE</p>
+{% capture contact_section %}
+{% include contact.md %}
+{% endcapture %}
+{{ contact_section | markdownify }}
+<!-- there are two links to other sites, that use the same styling. The <a> tag is on the outside on purpose - everything you can see on the browser is part of the link -->
+
+<div class="flex flex-{{ page.contact }} items-center justify-around font-hind tc pv2">
+{% for item in site.data.contact_links %}
+  <a class="br3 near-white link bg-animate hover-bg-sov-yellow hover-dark-gray ph2 pv1 mb2" href="{{ item.link }}">
+    <figure><img src="{{ item.src }}" alt="{{ item.alt }}" class="w4" />
+    <figcaption class="f3 font-teko tracked">{{ item.name }}</figcaption>
+    </figure>
+  </a>
+    {{ item.content }}
+{% endfor %}
+</div>
+  </section>
+</footer>
