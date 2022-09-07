@@ -9,3 +9,9 @@
   alt: GitLab
   src: assets/gitlab-white.svg
   content: "view our code and join our development process"
+
+- name: "LiberaPay"
+  link: "https://liberapay.com/sovietlinux"
+  alt: "official logo for liberapay.com"
+  src: assets/liberapay-white.svg
+  content: "support our server upkeep costs."
