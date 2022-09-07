@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Soviet Linux - Home</title>  <!-- favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/star-favicon.svg">
+    <link rel="stylesheet" href="assets/tachyons.min.css">
+    <link rel="stylesheet" href="assets/tachyons-custom.css">
+  </head>
+  <body class="bg-sov-red" style="">
+       <header id="" class="parallax vh-50 vh-50-ns vh-100-l">
+    
+    <section id="bg-flag" class="plx-back-4 z-1 vh-100 flex items-start justify-center cover ani-fade-in ani-2s ani-delay-15s ani-backwards"  style="background-image:url(assets/rays.svg);">
+    </section>
+    <section id="bg-flag" class="plx-back-2 z-2 vh-75 flex items-start justify-start" >
+        <img class="h-25 ani-fade-in ani-2s pl5" src="assets/hamsic.svg" alt="crossed hammer and sickle">
+    </section>
+<section id="lenin" class="z-3 vh-100 w-100 flex items-center justify-end pr5 plx-back-1 ">
+    <img class="h-75 ani-fade-in-right ani-2s " src="assets/lenin_inv.svg" />
+    </section>
+    <section id="title card" class="plx-fore-1 z-4 flex flex-column items-center justify-center" style="">
+        <div id="title" class="ani-fade-in ani-15s font-russian near-white  f1 f-headline-l tracked">
+        SOVIET &#9773; LINUX
+        </div>
+        <div id="subtitle" class="ani-fade-in ani-1s ani-delay-1s ani-backwards font-teko near-white f2 tracked">
+        The People's Distribution
+        </div>
+    </section>
+</header>
+
+<!-- the main content of the page - more stuff will come in here eventually. -->
+<main class="relative z-4 bg-sov-red bg-center bg-top-l contain bg-fixed bg-animate bb bw2 bw3-l b--dark-gray" style="background-image: url('./assets/unbreakable_union.jpg');">
+<!-- the aside contains the download links -->
+<aside class="relative z-4 bg-center bg-top-l contain bg-fixed" style="background-image: url('./assets/popup_marx_engels_lenin.jpg');">
+    <section class="tc mnvh-50 pv5 flex flex-column items-center justify-center bg-sov-yellow-t9 bt bb bw2 bw3-ns b--dark-gray">
+  
+      <p class="font-teko b tracked f1 sov-red self-center">DOWNLOAD
+      </p>
+      
+  <!-- this section contains an number of 'a' links to download Soviet. There are 3 sections, each with 2 links. The top row also has two stars -->
+<section class="w-100 flex flex-row font-hind">
+<div class="z-5 w-50 flex flex-column items-center justify-start pb3 ph3">
+      <!-- rootfs direct download   -->
+      <a class="linux no-underline w-50 ph3 pv3 bg-sov-red hover-bg-dark-red yellow font-teko b f3 f2-l tc bg-animate ba bw1 b--dark-gray br3"
+      href="https://sovietlinux.ml/##">
+        rootfs Direct
+      </a>
+      <p class="measure f4 f3-l tl dark-gray">The rootfs is a squashfs that can be extracted into a directory, and accessed through chroot or systemd-nspawn.<br />
+      It can also be manually copied to an already formatted partition and directly booted.
+      </p>
+</div>
+<div class="z-5 w-50 flex flex-column items-center justify-start pb3 ph3">
+      <!-- rootfs direct download   -->
+      <a class="linux no-underline w-50 ph3 pv3 bg-sov-red hover-bg-dark-red yellow font-teko b f3 f2-l tc bg-animate ba bw1 b--dark-gray br3"
+      href="https://sovietlinux.ml/##">
+        img Direct
+      </a>
+      <p class="measure f4 f3-l tl dark-gray">
+          The img file can be copied to a usb device using <code>dd</code> or any other flashing utility. It will boot and function as a live environment. It uses the same files as the <code>rootfs.</code>
+</div>
+</section>
+<section class="pt4 tracked w-100 flex flex-column justify-center items-center pb3">
+      <div class="font-teko f3 f2-l sov-red"><b class="dark-gray">Username:</b> root</div>
+      <div class="font-teko f3 f2-l sov-red"><b class="dark-gray">Password:</b>sovietlinux</div>
+</section>
+</section>
+<section id="about-container" class="bg-sov-red bg-fixed bg-center bg-top-l contain bt bw2 b--dark-gray  " style="background-image:url(assets/unbreakable_union.jpg);">
+<section id="about" class="pv5 flex flex-column items-center justify-start bg-sov-red-t8 near-white">
+  <div class="measure font-hind w-90 a-light">
+    <h1 class="f1 font-teko b tc tracked">ABOUT</h1>
+
+
+<p><em>Soviet</em> is built from the <a href="https://linuxfromscratch.org">Linux from Scratch</a> project. It features a custom installer to keep your programs up to date, and the capability to submit programs to our repository.</p>
+
+<p><strong>Soviet Linux is in the early stages of development.</strong> There is active work being done to make <em>Soviet</em> into a fully functional Linux experience. However, at this time it’s not suitable for daily use.
+We welcome contributions from interested workers. <a href="#contribute">Contact us</a> to see how you can join us.</p>
+
+
+      </div>
+    </section>
+
+<section id="documentation" class="pv5 flex flex-column items-center justify-start bg-sov-red-t8 near-white">
+  <div class="measure font-hind w-90 a-light">
+    <h1 class="f1 font-teko b tc tracked">DOCUMENTATION</h1>
+
+
+<h2 id="1--the-packagesrepo">1:  <a href="https://docs.sovietlinux.ml/repo">The Packages/Repo</a></h2>
+<p>This is the main repo for the CCCP and Soviet Linux.</p>
+<h2 id="2-installer">2: <a href="https://docs.sovietlinux.ml/installer">Installer</a></h2>
+<p>This will install a version of Soviet-Linux on the user’s PC.</p>
+<h2 id="3-cccp">3: <a href="https://docs.sovietlinux.ml/cccp">CCCP</a></h2>
+<p>The CCCP is the official soviet linux package manager, it can install .spm files. Still in development.</p>
+
+
+      </div>
+    </section>
+</section>
+
+</main>
+<footer class="relative z-5 bg-dark-gray bg-bottom bg-fixed bg-size-w75-ns bg-size-w50-l" style="background-image: url('./assets/sov_flag-angle.svg')">
+<!-- this section is semi-transparent grey, which lets the <footer> background image show through. It's using flexbox instead of paragraphs so that we can add more links in later and readjust the flow (if needed) -->
+  <section class="z-5 pt5 ph2 bg-dark-gray-t8 flex items-start justify-center">
+      <!-- penguin with sickle -->
+    <section class="z-3 self-end tc">
+      <img class="w-75-m w-50-l v-btm" src="assets/penguin-sickle.svg" alt="penguin holding a sickle">
+    </section>
+
+<!-- text -->
+<section class="z-4 flex flex-column items-center font-teko tracked near-white pb5">    
+<!-- This <p> is the title of the content -->
+  <p class="b f1 l self-center light-yellow " id="contribute">CONTRIBUTE</p>
+
+
+<p>The revolution is calling your name!</p>
+
+<p>We could use help in all aspects of building this distribution.</p>
+
+
+
+
+<!-- there are three links to other sites, that use the same styling. -->
+<div class="tc pt3 font-teko tracked white">
+
+    <figure class="tc">
+  <a class="f4 f3-ns db no-underline hover-bg-sov-red br2 pv2 ph1" href="https://discord.gg/">
+        <img class="h3" src="assets/discord-white.svg" alt="Discord" />
+    <figcaption class="light-yellow">Discord</figcaption>
+  </a>
+    </figure>
+    join our community and interact with the creators
+
+    <figure class="tc">
+  <a class="f4 f3-ns db no-underline hover-bg-sov-red br2 pv2 ph1" href="https://git.sovietlinux.ml/sovietlinux">
+        <img class="h3" src="assets/gitlab-white.svg" alt="GitLab" />
+    <figcaption class="light-yellow">GitLab</figcaption>
+  </a>
+    </figure>
+    view our code and join our development process
+
+    <figure class="tc">
+  <a class="f4 f3-ns db no-underline hover-bg-sov-red br2 pv2 ph1" href="https://liberapay.com/sovietlinux">
+        <img class="h3" src="assets/liberapay-white.svg" alt="official logo for liberapay.com" />
+    <figcaption class="light-yellow">LiberaPay</figcaption>
+  </a>
+    </figure>
+    support our server upkeep costs.
+
+</div>
+  </section>
+
+  <!-- penguin with hammer -->
+    <section class="z-3 self-end tc">
+      <img class="w-75-m w-50-l v-btm" src="assets/penguin-hammer.svg" alt="penguin holding a hammer">
+    </section>
+</footer>
+
+
+  </body>
+</html>

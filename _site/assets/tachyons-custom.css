@@ -6,7 +6,7 @@
 
 :root {
     --fontsize:clamp(14pt,calc(14pt + 1.5vw),18pt);
-    --red: #782121;
+    --red: #702020;
     --red-link:;
     --red-t9: rgba(121,32,32,0.9);
     --red-t8: rgba(121,32,32,0.8);
@@ -17,7 +17,7 @@
     }
 
 html {
-  scroll-behavior:smooth; 
+  scroll-behavior: smooth; 
   box-sizing: border-box;
   overflow:hidden;
   }
@@ -29,6 +29,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 1px;
+  font-size: var(--fontsize);
   }
   
 
@@ -63,49 +64,49 @@ body {
 /* colours !! */
 /* text colour */
 .sov-red {
-color: --var(red);
+color: var(--red);
 }
 .hover-sov-red:hover {
-color: --var(red);
+color: var(--red);
 }
 /* background colour */
 .bg-sov-red {
- background-color: --var(red);
+ background-color: var(--red);
   }
 /* put your mouse over an object, it turns this colour */
 .hover-bg-sov-red:hover {
- background-color: --var(red);
+ background-color: var(--red);
   }
 /* 80% opaque, 20% transparent */
 .bg-sov-red-t8 {
- background-color:--var(red-t8);
+ background-color:var(--red-t8);
  }
 /* 90% opaque, 10% transparent */
 .bg-sov-red-t9 {
- background-color:--var(red-t8);
+ background-color:var(--red-t8);
   }
 
 .sov-yellow {
-color: --var(yellow);
+color: var(--yellow);
 }
 .hover-sov-yellow:hover {
-color: --var(yellow);
+color: var(--yellow);
 }
 /* background colour */
 .bg-sov-yellow {
- background-color: --var(yellow);
+ background-color: var(--yellow);
   }
 /* put your mouse over an object, it turns this colour */
 .hover-bg-sov-yellow:hover {
- background-color: --var(yellow);
+ background-color: var(--yellow);
   }
 /* 80% opaque, 20% transparent */
 .bg-sov-yellow-t8 {
- background-color:--var(yellow-t8);
+ background-color:var(--yellow-t8);
  }
 /* 90% opaque, 10% transparent */
 .bg-sov-yellow-t9 {
- background-color:--var(yellow-t8);
+ background-color:var(--yellow-t8);
   }
 /* overriding the default, for accessability improvement */
 .dark-gray {
